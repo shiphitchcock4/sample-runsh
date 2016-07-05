@@ -1,7 +1,7 @@
 jobs:
   - name: script-065
     type: runSh
-    serial: false
+    serial: true
     steps:
       - GET: sample-script
       - TASK:
