@@ -1,5 +1,5 @@
 jobs:
-  - name: script-069
+  - name: script-061
     type: runSh
     steps:
       - GET: sample-script
