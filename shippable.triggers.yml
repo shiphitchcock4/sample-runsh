@@ -2,4 +2,4 @@ triggers:
   - name: triggertest1
     type: trigger
     source:
-      counter: 2
+      counter: 1
