@@ -8,4 +8,4 @@ build:
     - echo "This is master"
     - echo "This is ??????"
     - echo "Hello, World!"
-- echo "This is !!!!!!"
+    - sleep 2m
