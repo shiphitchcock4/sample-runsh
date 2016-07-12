@@ -1,0 +1,11 @@
+language: node_js
+
+node_js: 0.12
+
+build:
+  ci:
+    - echo "Hello, World!"
+    - echo "This is master"
+    - echo "This is ??????"
+    - echo "Hello, World!"
+- echo "This is !!!!!!"
