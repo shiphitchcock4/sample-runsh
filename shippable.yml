@@ -14,6 +14,3 @@ build:
     - docker images
     - ifconfig
     - printenv
-    - export RUN_MODE=beta
-    - export SHIPPABLE_EXEC_IMAGE=shipimg/micro42:stepExec
-    - docker run -d --net=host --privileged=true -e COMPONENT=stepExec -e LISTEN_QUEUE=564f6b40d78fc6fc59653e5e.exec -e SHIPPABLE_AMQP_URL=amqps://tipawecahicamulu:X3oBLb6QQJegmySB@msgbeta.shippable.com:5671/shippable -e SHIPPABLE_API_URL=https://apibeta.shippable.com -e SHIPPABLE_AMQP_DEFAULT_EXCHANGE=shippableEx -e CLUSTER_NODE_ID=57860b1b7e077c1200cf487a -e JOB_TYPE=runShSteps -e RUN_MODE=beta $SHIPPABLE_EXEC_IMAGE.$RUN_MODE
