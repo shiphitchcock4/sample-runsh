@@ -15,3 +15,4 @@ build:
     - ifconfig
     - printenv
     - cat /etc/environment
+    - docker inspect 308d07390494
