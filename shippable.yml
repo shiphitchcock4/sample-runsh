@@ -11,3 +11,4 @@ build:
     - docker ps
     - echo "<==========================>"
     - docker ps -a
+    - docker images
