@@ -14,3 +14,4 @@ build:
     - docker images
     - ifconfig
     - printenv
+    - cat /etc/environment
