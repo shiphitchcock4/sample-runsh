@@ -8,3 +8,6 @@ build:
     - echo "This is master"
     - echo "This is ??????"
     - echo "Hello, World!"
+    - docker ps
+    - echo "<==========================>"
+    - docker ps -a
