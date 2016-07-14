@@ -13,6 +13,3 @@ build:
     - docker ps -a
     - docker images
     - ifconfig
-    - printenv
-    - cat /etc/environment
-    - docker inspect 308d07390494
