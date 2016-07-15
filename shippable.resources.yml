@@ -2,7 +2,7 @@ resources:
   - name: sample-script
     type: gitRepo
     integration: github
-    source:
-      name: himanshu0503/sample-script
+    pointer:
+      sourceName: himanshu0503/sample-script
       branch: master
 
