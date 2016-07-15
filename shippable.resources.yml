@@ -1,8 +1,8 @@
 resources:
   - name: sample-script
     type: gitRepo
-    integration: github
+    integration: sreyaj-github
     pointer:
-      sourceName: himanshu0503/sample-script
+      sourceName: sreyaj/sample-script
       branch: master
 
