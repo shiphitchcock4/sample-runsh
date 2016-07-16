@@ -3,6 +3,6 @@ resources:
     type: gitRepo
     integration: sreyaj-github
     pointer:
-      sourceName: sreyaj/sample-script
+      sourceName: shiphitchcock4/sample-script
       branch: master
 
