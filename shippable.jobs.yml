@@ -1,5 +1,5 @@
 jobs:
-  - name: script-somerandomshit
+  - name: script-test
     type: runSh
     steps:
       - IN: sample-script
