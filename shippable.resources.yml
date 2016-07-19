@@ -5,4 +5,10 @@ resources:
     pointer:
       sourceName: shiphitchcock4/sample-script
       branch: master
+  - name: sample-script-3
+    type: gitRepo
+    integration: shiphitchcock4-github
+    pointer:
+      sourceName: shiphitchcock4/sample-script-3
+      branch: master
 
