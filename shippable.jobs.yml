@@ -7,7 +7,7 @@ jobs:
       - TASK:
         - script: IN/sample-script/sample-script/echo.sh
         
-  - name: script-testrunShn92
+  - name: script-testrun2
     type: runSh
     steps:
       - IN: sample-script
