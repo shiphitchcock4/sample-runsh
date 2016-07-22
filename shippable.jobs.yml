@@ -10,7 +10,7 @@ jobs:
   - name: script87
     type: runSh
     steps:
-      - IN: sample-script
+      - IN: sample-script3
       - IN: triggertest1
       - TASK:
         - script: IN/sample-script/sample-script/echo.sh
