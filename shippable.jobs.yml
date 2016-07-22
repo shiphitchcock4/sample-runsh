@@ -7,10 +7,4 @@ jobs:
       - TASK:
         - script: IN/sample-script/sample-script/echo.sh
         
-  - name: script-testrun2
-    type: runSh
-    steps:
-      - IN: sample-script
-      - IN: triggertest1
-      - TASK:
-        - script: IN/sample-script/sample-script/echo.sh
+
