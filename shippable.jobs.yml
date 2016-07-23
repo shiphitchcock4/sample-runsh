@@ -1,5 +1,5 @@
 jobs:
-  - name: script-testrunShn91
+  - name: script-runSh
     type: runSh
     steps:
       - IN: sample-script
